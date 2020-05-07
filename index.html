@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Voting Simulation</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Voting Simulation</h1>
+    <form name="myform" action="index.html" method="post">
+        <h2>Choose 3 Pictures Please</h2>
+        <div class="file-whole">
+
+                <input type="file" name="" id="" multiple="">
+                <input type="submit" value="Submit">
+            </div>
+       
+        <div class="candidates">
+        <div class="candidate-one">
+            <h2>1</h2>
+                
+                <div class="details">
+                    <p>
+                            <img src="" >
+                            <br><label for="name">Name</label> <br> <span id="yrnm1"></span> <br>
+                            <label for="surname">Surname</label>  <br> <span id="yrsnm1"></span> <br>
+                            <label for="Age">Age</label>  <br> <span id="yrage1"></span> <br>
+                    </p>
+                            
+
+                </div>
+                
+        </div>
+        <div class="candidate-two">
+                <h2>2</h2>
+                <div class="details">
+                        <p>
+                                <img src="" >
+
+                                 <br><label for="name">Name</label>  <br><span id="yrnm2"></span> <br>
+                                <label for="surname">Surname</label> <br> <span id="yrsnm2"></span> <br>
+                                <label for="Age">Age</label>  <br> <span id="yrage2"></span> <br>
+                        </p>
+                                
+    
+                    </div>
+        </div>
+        <div class="candidate-three">
+            <h2>3</h2>
+            <div class="details">
+                    <p>
+                        
+                            <img src=""  >
+                            <br><label for="name">Name</label>  <br><span id="yrnm3"></span> <br>
+                            <label for="surname">Surname</label> <br> <span id="yrsnm3"></span> <br>
+                            <label for="Age">Age</label>  <br> <span id="yrage3"></span> <br>
+                    </p>
+                            
+
+                </div>
+        </div>
+    </div>
+        
+       
+        
+        <div class="VoteAction">
+            Vote
+            <br>
+            <input type="submit" value="Start" name="start" onclick="action()">
+            <input type="submit" value="Stop" name="Stop" onclick="action()">
+        
+        </div>
+        <div class="VoteProcess">
+                <h2>Click the Button Vote</h2>
+                <input type="submit" value="Number1" name="first">
+                <input type="submit" value="Number2" name="second">
+                <input type="submit" value="NUmber3" name="third">
+                
+
+        </div>
+
+    </form>
+</body>
+</html>
