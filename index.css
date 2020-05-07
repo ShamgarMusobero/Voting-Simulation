@@ -1,0 +1,110 @@
+html{
+    padding: 20px;
+    margin: 10px;
+    background: turquoise;;
+}
+body{
+    background: teal;
+    margin:20px;
+    padding: 40px;
+}
+.candidate-one p img {
+    text-align: left;
+    width: 200px;
+    height: 300px;
+}
+.candidate-one p label{
+    font-size: 18px;
+    color: whitesmoke;
+}
+.candidate-two p label{
+    font-size: 18px;
+    color: whitesmoke;
+}
+.candidate-three p label{
+    font-size: 18px;
+    color: whitesmoke;
+}
+.candidate-two p img{
+    text-align: left;
+    width: 200px;
+    height: 300px;
+}
+.candidate-three p img{
+    text-align: left;
+    width: 200px;
+    height: 300px;
+}
+h2{
+    color: whitesmoke;
+}
+.VoteProcess{
+    text-align: right;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+}
+.VoteAction input{
+    font-size: 18px;
+    text-decoration: none;
+    border: whitesmoke 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.VoteAction {
+    font-size:18px;
+}
+.file-whole input{
+    font-size: 18px;
+    text-decoration: none;
+    border: whitesmoke 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.VoteProcess input{
+    font-size: 18px;
+    text-decoration: none;
+    border: whitesmoke 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.candidates{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width:880px){
+    .candidates{
+    
+        grid-template-columns: 1fr ;
+    }
+    .candidate-one{
+        display: grid;
+        justify-content: center;
+    }
+    .candidate-two{
+        display: grid;
+        justify-content: center;
+    }
+    .candidate-three{
+        display: grid;
+        justify-content: center;
+    }
+    .VoteAction{
+        display: grid;
+        justify-content: center;
+    }
+    .VoteProcess{
+        display: grid;
+        justify-content: center;
+    }
+    .file-whole{
+        display: grid;
+        justify-content: center;
+    }
+}
